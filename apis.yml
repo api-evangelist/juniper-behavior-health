@@ -1,23 +1,79 @@
 aid: juniper-behavior-health
-name: Juniper Behavior Health
-description: Juniper Behavior Health is a company surfaced as a portfolio company of a16z and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/juniper-behavior-health.png
+name: Juniper Behavioral Health
+description: >-
+  Juniper Behavioral Health (now operating as Camber, camber.health) is a
+  healthcare revenue-cycle-management (RCM) software company for specialty and
+  behavioral health providers. Founded in 2021 and backed by a16z, Y Combinator,
+  and Craft Ventures, the company automates medical billing, claims processing,
+  denial management, and payment analytics so behavioral and specialty clinicians
+  (ABA, PT, ENT, allergy) can collect more from insurance and spend less time on
+  administrative overhead. Their platform is built on AI systems trained on more
+  than $2.5B in claims data. This profile was surfaced as an a16z portfolio company
+  and enriched from the public Camber website; the company exposes a customer web
+  application (app.camber.health) and a published responsible-disclosure policy but
+  no public developer API, SDKs, or API documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/juniper-behavior-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Y Combinator
+- Craft Ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebranded-to: Camber
+x-website: https://www.camber.health
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Behavioral Health
+- Healthcare
+- Revenue Cycle Management
+- Medical Billing
+- Claims Processing
+- Health Tech
+- SaaS
 apis: []
+common:
+- type: Website
+  url: https://www.camber.health
+- type: Company
+  url: https://www.camber.health/company
+- type: Login
+  url: https://app.camber.health/login
+- type: Blog
+  url: https://www.camber.health/company/news
+- type: TermsOfService
+  url: https://www.camber.health/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.camber.health/privacy-policy
+- type: VulnerabilityDisclosure
+  url: https://www.camber.health/responsible-disclosure
+- type: Security
+  url: security/juniper-behavior-health-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/juniper-behavior-health-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
