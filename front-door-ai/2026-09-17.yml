@@ -1,0 +1,27 @@
+# Front Door AI Index — juniper-behavior-health — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: juniper-behavior-health
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.camber.health
+  final_host: www.camber.health
+  ownership: shared
+  owner: camber
+  shares_host_with:
+  - camber
+  inherited_from: null
+  verdict: scored
+  score: null
+  host_score: 2
+  density: null
+  words: 922
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 3
+  top_terms:
+    intelligence: 3
+    AI: 2
